@@ -1,0 +1,55 @@
+---
+output: pdf_document
+---
+
+\begin{centering}
+
+\vspace{3 cm}
+
+\Large
+Julien Le Roux
+
+\vspace{1 cm}
+
+\normalsize
+Ingénieur en Traitement des Eaux et des Nuisances
+Docteur en Sciences de l'Eau
+
+\vspace{3 cm}
+
+\normalsize
+School of ...
+
+\normalsize
+University
+
+\end{centering}
+
+\begin{tabular}{rl}	
+\textsc{July} 2012 & Master of Commerce in \textsc{Finance}, \textbf{The University of California}, Berkeley\\
+& 110/110 \small\emph{First Class Honours} | Major: Quantitative Finance\\
+& Thesis: ``Money is the Root of All Evil - Or is it?'' | \small Advisor: Prof. James \textsc{Smith}\\
+&\\
+
+%------------------------------------------------
+
+\textsc{July} 2011 & Undergraduate Degree in \textsc{}\textsc{Business Studies} \\&110/110 \small\emph{Commerce Specialization}, \normalsize\textbf{The University of California}, Berkeley\\
+& Heavily specialized in mundane paperwork | \small Advisor: Stefano \textsc{Bonini}\\
+&\\
+
+%------------------------------------------------
+
+\textsc{Fall} 2008 & Exchange Semester at \textbf{University of Southern California}, Los Angeles\\
+&\\
+
+%------------------------------------------------
+
+\textsc{July} 2006 & \textbf{Liceo Classico ``E. Duni''}, Matera | Final Grade: 100/100
+\end{tabular}
+
+\begin{tabularx}{\linewidth}{r| >{\arraybackslash}X}
+
+\textsc{Jan-Mar 2009} & Volunteer at \textsc{XXXXXArchaeological Project}, XXX, XXX\emph{}\\
+& \footnotesize{Worked in the Nerd Herd and helped to solve computer problems by asking customers to turn their computers off and on again.}
+\end{tabularx}
+
