@@ -1,0 +1,55 @@
+---
+format: 
+  html:
+    theme: cosmo
+    keep-md: true
+    keep-tex: true
+---
+
+
+
+::: {.hidden}
+$$
+
+      \addtokomafont{disposition}{\rmfamily}
+        \usepackage{placeins}
+        \usepackage{fancyhdr}
+        \usepackage{setspace}
+        \usepackage{chngcntr}
+        \usepackage{microtype}
+        \usepackage{tabularx}
+        \usepackage{tabularray}
+        \usepackage{longtable}
+        \usepackage{newcomputermodern}
+        \onehalfspacing
+        \counterwithin{figure}{section}
+        \counterwithin{table}{section}
+
+\begin{document}
+\newcommand{\twocolsection}[2]{%
+  \begin{longtable}[t]{
+    @{}
+    wl{0.8in}
+    >{\raggedright\arraybackslash}p{\dimexpr\textwidth-1in-2\tabcolsep}
+    @{}
+  }
+  #2
+  \end{longtable}
+}
+\newcommand{\threecolsection}[2]{%
+  \section{#1}
+  \begin{tabular}[t]{
+    @{}
+    wl{1.25in}
+    >{\raggedright\arraybackslash}p{\dimexpr\textwidth-2.25in-4\tabcolsep}
+    wr{1in}
+    @{}
+  }
+  #2
+  \end{tabular}\par
+}
+
+\end{document}
+$$
+
+:::

@@ -2,54 +2,82 @@
 output: pdf_document
 ---
 
+```{=tex}
 \begin{centering}
 
-\vspace{3 cm}
+\vspace{1 cm}
 
-\Large
+\huge
 Julien Le Roux
 
 \vspace{1 cm}
 
-\normalsize
-Ingénieur en Traitement des Eaux et des Nuisances
-Docteur en Sciences de l'Eau
+\Large
+Ingénieur en Traitement des Eaux et des Nuisances\\ 
 
-\vspace{3 cm}
+Docteur en Sciences de l'Eau \\
 
-\normalsize
-School of ...
+Maître de conférences (5\textsuperscript{e} échelon), 35\textsuperscript{ème} section CNU
 
-\normalsize
-University
+\vspace{1 cm}
+
+\large
+Né le 29 novembre 1985 à Nantes\\ 
+\vspace{5mm}
+\textbf{Coordonnées professionnelles}\\
+\normalsize 
+Université Paris-Est Créteil - Maison des Sciences de l'Environnement\\
+5 rue Pasteur Vallery-Radot\\
+94000 Créteil, France\\
+\vspace{5mm}
+01 82 39 20 80\\
+julien.le-roux@u-pec.fr
 
 \end{centering}
 
-\begin{tabular}{rl}	
-\textsc{July} 2012 & Master of Commerce in \textsc{Finance}, \textbf{The University of California}, Berkeley\\
-& 110/110 \small\emph{First Class Honours} | Major: Quantitative Finance\\
-& Thesis: ``Money is the Root of All Evil - Or is it?'' | \small Advisor: Prof. James \textsc{Smith}\\
+\DefTblrTemplate{contfoot-text}{default}{}
+\DefTblrTemplate{conthead-text}{default}{}
+\DefTblrTemplate{caption}{default}{}
+\DefTblrTemplate{conthead}{default}{}
+\DefTblrTemplate{capcont}{default}{}
+
+\begin{longtblr}{r | p{13cm}}
+
+2008 & Diplôme d’Ingénieur de l’\textbf{École Supérieure d’Ingénieurs de Poitiers (ESIP)} – Spécialité Eau et Environnement\\
+& Diplôme de Master 2 Recherche Chimie et Applications, spécialité Chimie et Microbiologie des Eaux | \small\emph{mention bien} - \textbf{Université de Poitiers}\\
+& Sujet de Master : « \emph{Etude du pouvoir colmatant de quelques eaux souterraines} » | \small Direction : Jean-Philippe \textsc{Croué} (ENSI Poitiers) \& Bénédicte \textsc{Welté} (Eau de Paris)\\
 &\\
 
-%------------------------------------------------
 
-\textsc{July} 2011 & Undergraduate Degree in \textsc{}\textsc{Business Studies} \\&110/110 \small\emph{Commerce Specialization}, \normalsize\textbf{The University of California}, Berkeley\\
-& Heavily specialized in mundane paperwork | \small Advisor: Stefano \textsc{Bonini}\\
+2008-2011 & Doctorat de Chimie spécialité Chimie et Microbiologie de l’Eau – \textbf{École Nationale Supérieure d’Ingénieurs de Poitiers (ENSIP), Université de Poitiers}\\
+& Allocataire de recherche et moniteur\\
+& Thèse : « \emph{Mécanisme de formation des nitrosamines et sous-produits halogénés lors de la chloramination de contaminants organiques azotés émergents} » | \small Direction : Jean-Philippe \textsc{Croué} \& Hervé \textsc{Gallard}\\
 &\\
 
-%------------------------------------------------
 
-\textsc{Fall} 2008 & Exchange Semester at \textbf{University of Southern California}, Los Angeles\\
+2011-2012 & Attaché Temporaire d’Enseignement et de Recherche (ATER) à l’\textbf{ENSI Poitiers}, France\\
+& \small{Enseignements en ...}\\
 &\\
 
-%------------------------------------------------
 
-\textsc{July} 2006 & \textbf{Liceo Classico ``E. Duni''}, Matera | Final Grade: 100/100
-\end{tabular}
+2012-2014 & Chercheur Post-Doctoral au \textsc{Water Desalination and Reuse Center (WDRC)}, \textbf{Université KAUST}, Arabie Saoudite\\
+& \small{Thématiques de recherche : → identification de sous-produits de désinfection dans des usines de dessalement (mer rouge)
+→ Projet avec l’Université d’Illinois à Urbana-Champaign : « Nitrogenous DBPs in Reclaimed Wastewater Effluents: Chemistry, Toxicity and Control Strategies ».
+→   Identification de produits d'oxydation avancée par LC-ORBITRAP et LC-MSn
+→   Identification de sous-produits de désinfection formés à partir d’effluents d’eaux usées\\
+→   Utilisation avancée de techniques analytiques : GC-ICP-MS, LC-QTOF, LC-ORBITRAP}\\
+&\\
 
-\begin{tabularx}{\linewidth}{r| >{\arraybackslash}X}
 
-\textsc{Jan-Mar 2009} & Volunteer at \textsc{XXXXXArchaeological Project}, XXX, XXX\emph{}\\
-& \footnotesize{Worked in the Nerd Herd and helped to solve computer problems by asking customers to turn their computers off and on again.}
-\end{tabularx}
+Depuis 2015 & Maitre de conférences au \textsc{Laboratoire Eau Environnement et Systèmes Urbains (LEESU)}, \textbf{Université Paris-Est Créteil}\\
+& \small{Thématiques de recherche : Enseignements en chimie à l’UPEC (Faculté des Sciences et Technologie), niveaux L1 à M2\\
+→ Mécanismes de transfert et de transformation de polluants organiques dans les eaux urbaines : caractérisation, compréhension, quantification
+→ Traitement avancé de micropolluants organiques dans les effluents d’eaux usées
+→ Développement analytique en spectrométrie de masse haute résolution}\\
+&\\
 
+Depuis 2017 & Co-responsable du master en apprentissage \textsc{Analyse et Assurance Qualité}. Organisation du passage de la formation sur 2 années à partir de 2020.\\
+&\\
+
+\end{longtblr}
+```
