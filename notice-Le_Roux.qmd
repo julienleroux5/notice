@@ -256,9 +256,11 @@ Européenne)\\
 
 ### Organisation de colloques
 
--   Vice-président de l'Association de Professionnels du Traitement des Eaux et des Nuisances (APTEN Poitiers), organisant tous les deux ans le colloque Journées Information Eaux à Poitiers (500 participants). Membre du comité de sélection scientifique en 2018, 2020 et 2022.
+-   Vice-président de l'Association de Professionnels du Traitement des Eaux et des Nuisances (APTEN Poitiers), organisant tous les deux ans le colloque Journées Information Eaux à Poitiers (500 participants). Membre du comité de sélection scientifique depuis 2018.
 
 -   Membre du comité de pilotage des Journées Scientifiques de l'Environnement, colloque annuel organisé par l'UPEC (OSU Efluve) et le département du Val-de-Marne. Elaboration du programme et animation (2019-2024).
+
+-   Membre du comité scientifique du congrès international du GRUTTEE 2024 (Bordeaux)
 
 ### Comités de suivi de thèse, jurys et expertise
 
@@ -266,11 +268,7 @@ Européenne)\\
 \begin{color}{red}
 (y compris jurys MCF ?) + RIPEC quelquepart ?
 \end{color}
-
 ```
-
-
-
 #### Comités de suivi
 
 -   **Kevin [Rocco]{.smallcaps}**, « *Stratégies analytiques innovantes pour étudier le devenir des pesticides dans les hydrosystèmes* » -- INRAE/Université de Lyon -- 2019-2022
