@@ -123,7 +123,7 @@ knitr::opts_chunk$set(fig.path = 'figures/',
 
 2016-2021 & ANR JCJC \emph{WaterOmics} : « \emph{Traquer les micropolluants organiques dans les eaux urbaines par spectrométrie de masse haute résolution : approches omiques, empreintes et indices} ». Co-direction de thèse de Nina \textsc{Huynh} + 2 stages de M2. 272 k€.\\
 
-2018-2019 & Appel à post-doc UPEC / programme PRESTIGE (Campus France) : « \emph{Caractérisation de micropolluants organiques dans les procédés d'oxydation avancée (UV/H2O2 et UV/PDS) des eaux usées} ». Co-direction de post-doctorat (Maolida \textsc{Nihemaiti}) 12 mois de salaire + 4000€ de fonctionnement.\\
+2018-2019 & Appel à post-doc UPEC / programme PRESTIGE (Campus France) : « \emph{Caractérisation de micropolluants organiques dans les procédés d'oxydation avancée (UV/H<sup<2</sup>O<sup>2</sup> et UV/PDS) des eaux usées} ». Co-direction de post-doctorat (Maolida \textsc{Nihemaiti}) 12 mois de salaire + 4000€ de fonctionnement.\\
 
 2019-2022 & OPUR 5 (financement SIAAP, collectivités territoriales, Agence de l'Eau) : Action R2.5 : « \emph{Elimination de micropolluants en traitement tertiaire des eaux usées par différents procédés d'oxydation} ». Co-direction de thèse (Christelle \textsc{Nabintu Kajoka}). 150 k€.\\
 
@@ -155,6 +155,13 @@ knitr::opts_chunk$set(fig.path = 'figures/',
 
 2023-2024 & Appel à projet "Amorçage" de la ComUE Paris Est Sup : \emph{Electr'Eau} : « \emph{Traitement tertiaire des eaux usées municipales par électro-oxydation : élimination des micropolluants et estimation du risque en cas de réutilisation} », porté par C. Trellu (LGE - Université Gustave Eiffel). 35 k€.\\
 }
+
+MedUrinAgri
+
+Collaboration internationale UQAR Amina Ben Chaaben
+
+
+
 ```
 ## 2.2 Encadrements
 
@@ -231,6 +238,9 @@ Européenne)\\
 
 & \textbf{Salomé \textsc{Dushashvili}}, Master 2 Physico-Chimie moléculaire et applications, Université Gustave Eiffel, 6 mois. \small\emph{Estimation par spectrométrie de masse haute résolution de la toxicité de micropolluants organiques et d’échantillons environnementaux} | Encadrement avec Julien Sade\\
 }
+
+2024 & \textbf{Jeshica \textsc{Thiraimaran}}, Licence 3 Chimie Université Paris-Est Créteil, 2 mois. \small\emph{Faisabilité de l’évaluation de la part de réutilisation indirecte des eaux usées dans la production d’eau potable en France}\\
+
 ```
 ### Stage doctoral
 
@@ -297,7 +307,7 @@ Européenne)\\
 
 #### Dissémination
 
-Présentation sur les grands problèmes liés à l'eau et démonstration de traitement d'eau en classe de CP (projet de classe d'eau) à l'Ecole Primaire Simone Veil (Bobigny) (22 mai 2023).
+Présentation sur les grands problèmes liés à l'eau et démonstration de traitement d'eau en classe de CP (projet de classe d'eau) à l'Ecole Primaire Simone Veil (Bobigny) (22 mai 2023), et une classe de CM1 à l'Ecole Primaire Sciences et Biodiversité (Boulogne-Billancourt) (30 mai 2024).
 
 ```{=tex}
 \FloatBarrier
