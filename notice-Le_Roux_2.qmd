@@ -66,62 +66,62 @@ knitr::opts_chunk$set(fig.path = 'figures/',
 
 \pagenumbering{gobble}
 
-
+```{=tex}
 \newpage
 \pagestyle{fancy}
 \fancyhead[LE,RO]{}
 \fancyhead[LO,RE]{}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0pt}
-
+```
 \pagenumbering{roman}
 
-
+```{=tex}
 \newpage
 \fancyhead[CO,CE]{Table des matières}
 \setcounter{tocdepth}{2}
 \tableofcontents
-
+```
+```{=tex}
 \newpage
 \pagenumbering{arabic}
-
+```
+```{=tex}
 \newpage
 \fancyhead[CO,CE]{Curriculum Vitae}
-
+```
 # 1. Curriculum Vitae
 
 ```{r child = 'curriculum.qmd'}
 ```
 
-
+```{=tex}
 \FloatBarrier
 \newpage
 \fancyhead[CO,CE]{Activités de recherche}
-
+```
 # 2. Activités de recherche
 
 ## 2.1 Projets de recherche
 
 ### Porteur de projets
 
-
 ### Implications dans d'autres projets
-
 
 ## 2.2 Encadrements
 
 ### Post-doctorants
 
-
+```{=tex}
 \twocolsection{}{
   2018-2019 & Maolida \textsc{Nihemaiti}, \textbf{post-doctorante de l'Université Paris-Est Créteil}, appel à projet UPEC et programme PRESTIGE (Campus France/Union
 Européenne)\\
   & \small\emph{Caractérisation de micropolluants organiques dans les procédés d’oxydation (acide performique) des eaux usées}\\
 }
-
+```
 ### Doctorants
 
-
+```{=tex}
 \twocolsection{}{
   2016-2019 & Ronan \textsc{Guillossou}, \textbf{doctorant de l'Université Paris-Est}, Ecole des Ponts ParisTech, programme OPUR\\
   & \small\emph{Elimination des micropolluants organiques dans les eaux résiduaires urbaines par adsorption sur charbon actif : compréhension des processus et implications opérationnelles} | \small Co-direction : J. \textsc{Gasperi}\\
@@ -141,10 +141,10 @@ Européenne)\\
   2021-2024 & Julien \textsc{Sade}, \textbf{doctorant de l'Université Paris-Est Créteil}, programme MeSeine Innovation\\
   & \small\emph{Caractérisation de la contamination des eaux de surface par le couplage d’analyses non-ciblées en spectrométrie de masse avec des analyses d’écotoxicologie} | \small Co-direction : R. \textsc{Moilleron}, S. \textsc{Mottelet}\\
 }
-
+```
 ### Stagiaires
 
-
+```{=tex}
 \twocolsection{}{ 2016 & \textbf{Amina \textsc{Azzaoui}}, Licence 3 Chimie Université Paris-Est Créteil \& \textbf{Clarisse \textsc{Gayen}}, licence 3 SVT parcours Chimie-Biologie Université Paris-Est Créteil, 2 mois. \small\emph{Evaluation de l’impact de rejets urbains et de polluants organiques sur la qualité des eaux de surface par une approche métabolomique}\\
 
 & \textbf{Rémi \textsc{Mazerolles}}, Master 2 TVRN, option TQE, Université de Picardie Jules Vernes, ESCOM, 6 mois. \small\emph{Impact des friches industrielles sur la qualité des nappes phréatiques - le cas du site de la Pierre-Fitte à Villeneuve-le-Roi} \| \small Co-encadrement : M. \textsc{Seidl}\\
@@ -183,22 +183,20 @@ Européenne)\\
 
 & \textbf{Salomé \textsc{Dushashvili}}, Master 2 Physico-Chimie moléculaire et applications, Université Gustave Eiffel, 6 mois. \small\emph{Estimation par spectrométrie de masse haute résolution de la toxicité de micropolluants organiques et d’échantillons environnementaux} | Encadrement avec Julien Sade\\
 }
-
+```
 ## 2.3 Responsabilités et animations scientifiques
-
 
 ### Animations
 
-
 ### Organisation de colloques
 
+### Comités de suivi de thèse et jurys
 
-### Comités de suivi de thèse et jurys 
-
+```{=tex}
 \FloatBarrier
 \newpage
 \fancyhead[CO,CE]{Publications et communications}
-
+```
 # 3. Publications et communications
 
 #### Publications dans des revues internationales à comité de lecture
@@ -249,6 +247,7 @@ Européenne)\\
 :::
 
 ------------------------------------------------------------------------
+
 #### Dépôts de données
 
 ::: {#refs-data}

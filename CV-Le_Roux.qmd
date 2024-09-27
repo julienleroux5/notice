@@ -1,0 +1,339 @@
+---
+format:
+  html:
+    theme: cosmo
+    keep-md: true
+    keep-tex: true
+    tbl-colwidths: auto
+  pdf:
+    include-in-header:
+      text: |
+        \addtokomafont{disposition}{\rmfamily}
+        \usepackage{placeins}
+        \usepackage{fancyhdr}
+        \usepackage{setspace}
+        \usepackage{chngcntr}
+        \usepackage{microtype}
+        \usepackage{tabularx}
+        \usepackage{tabularray}
+        \usepackage{longtable}
+        \usepackage{newcomputermodern}
+        \onehalfspacing
+        \counterwithin{figure}{section}
+        \counterwithin{table}{section}
+    include-before-body:
+      - columns.tex
+editor: visual
+output: 
+  pdf_document:
+    citation_package: natbib
+    keep_tex: true
+    fig_caption: true
+    number_sections: true
+    latex_engine: pdflatex
+    pandoc_args: [
+       "--filter", "pandoc-citeproc"
+     ]
+lang: fr
+filters: 
+  - multibib.lua
+  - parse-latex
+    # template: svm-latex-cv.tex
+keywords: "pandoc, r markdown, knitr"
+geometry: margin=1in
+fontsize: 11pt
+# spacing: double
+csl: american-chemical-society-b.csl
+link-citations: true
+---
+
+---
+bibliography:
+  papersint: papers-int.bib
+  papersnat: papers-nat.bib 
+  comintorale: com-int-orale.bib 
+  comintaff: com-int-aff.bib 
+  comnatorale: com-nat-orale.bib 
+  comnataff: com-nat-aff.bib 
+  chap: chapters.bib 
+  data: datasets.bib 
+---
+
+---
+nocite: '@*'
+---
+
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(fig.path = 'figures/',
+                      echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+\pagenumbering{gobble}
+
+```{=tex}
+\newpage
+\pagestyle{fancy}
+\fancyhead[LE,RO]{}
+\fancyhead[LO,RE]{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+```
+\pagenumbering{arabic}
+
+```{=tex}
+\newpage
+\fancyhead[CO,CE]{Curriculum Vitae}
+```
+```{r child = 'curriculum.qmd'}
+```
+
+```{=tex}
+\FloatBarrier
+\newpage
+\fancyhead[CO,CE]{Activités de recherche}
+```
+# 2. Activités de recherche
+
+## 2.1 Projets de recherche
+
+### Porteur de projets
+
+```{=tex}
+\twocolsection{}{
+2017 & Appel à projet de la Faculté de Sciences et Technologie de l'UPEC - soutien à la recherche des Maîtres de Conférences nouvellement nommés. 6100€.\\
+
+2016-2019 & projet \emph{Carboplus} (OPUR 4 - financement SIAAP, collectivités territoriales, Agence de l'Eau) : « \emph{Abattements des polluants prioritaires et émergents par charbon actif} ». Co-direction de thèse de Ronan \textsc{Guillossou}. 150 k€.\\
+
+2016-2021 & ANR JCJC \emph{WaterOmics} : « \emph{Traquer les micropolluants organiques dans les eaux urbaines par spectrométrie de masse haute résolution : approches omiques, empreintes et indices} ». Co-direction de thèse de Nina \textsc{Huynh} + 2 stages de M2. 272 k€.\\
+
+2018-2019 & Appel à post-doc UPEC / programme PRESTIGE (Campus France) : « \emph{Caractérisation de micropolluants organiques dans les procédés d'oxydation avancée (UV/H<sup>2</sup>O<sup>2</sup> et UV/PDS) des eaux usées} ». Co-direction de post-doctorat (Maolida \textsc{Nihemaiti}) 12 mois de salaire + 4000€ de fonctionnement.\\
+
+2019-2022 & OPUR 5 (financement SIAAP, collectivités territoriales, Agence de l'Eau) : Action R2.5 : « \emph{Elimination de micropolluants en traitement tertiaire des eaux usées par différents procédés d'oxydation} ». Co-direction de thèse (Christelle \textsc{Nabintu Kajoka}). 150 k€.\\
+
+2019-2022 & OPUR 5 : Action R2.6 : « \emph{Nouvelles méthodes de caractérisation des micropolluants : analyses par screening non-ciblé et écotoxicologie} ». 80 k€.\\
+
+2020 & Prestation analytique « \emph{analyse d'échantillons de Seine et de sols suite à l'incendie de l'usine Lubrizol à Rouen} ». 2 mois de salaire de post-doc (Maolida \textsc{Nihemaiti}).\\
+
+2021-2023 & Partenaire de l'ANR RA-SIOMRI 2021 (Recherche-Action - Solutions innovantes et opérationnelles dans la maitrise des risques industriels en milieu urbain et dense) \emph{ENVAHY} : « \emph{Imprégnation de l'ENVironnement suite à un Accident industriel en milieu urbain dense : recherche de marqueurs et de leur transfert dans l'Hydrosystème} », portée par M. \textsc{Fournier} (Université de Rouen Normandie). Financement d'un stage de M2 + fonctionnement. 18,3 k€.\\
+
+2021-2024 & Programme MeSeine Innovation (Observer et comprendre la Seine francilienne), Phase 1 : Action 2.2.2 : « \emph{Caractérisation de la contamination des eaux de surface par le couplage d’analyses non-ciblées en spectrométrie de masse avec des analyses d’écotoxicologie} ». Co-direction de thèse (Julien \textsc{Sade}).\\
+
+2022-2025 & Projet Européen HORIZON-WIDERA-2021-ACCESS-02-01 - Twinning Western Balkans Special. \emph{SmartWaterTwin} : « \emph{Twinning for smart water - thinking and rethinking wastewater management in circular economy frame} ». Porté par l'Université de Novi Sad (Serbie), partenaires ICRA (Espagne) et UPEC (France) : porteur pour la France. 247 k€.\\
+
+}
+```
+### Implications dans d'autres projets
+
+```{=tex}
+\twocolsection{}{
+2017 & Appel à projet collaboratif de l’OSU Efluve (UPEC) : \emph{Screenatm’eau} : « \emph{Développement d’une méthode non ciblée pour l’analyse de micropolluants par couplage chromatographie liquide et spectrométrie de masse haute résolution à l’interface eau/atmosphère} ». Porté par A. \textsc{Bressy}. 18 k€.\\
+
+2014-2019 & Appel à projet AESN/OFB : \emph{Roulépur} : « \emph{Caractérisation expérimentale de la rétention et du devenir de micropolluants dans le sol d’un ouvrage de gestion des eaux de ruissellement de voirie} » Implication dans l’encadrement d’une stagiaire de M2 (6 mois). Porté par M.C. \textsc{Gromaire}.\\
+
+2019-2022 & OPUR 5 : Thème O2 « \emph{Observatoire des micropolluants dans les eaux urbaines} ». Porté par R. \textsc{Moilleron}.\\
+
+2021-2025 & Participation à l’ANR JCJC (AAPG 2021) \emph{Biocid@Home} : « \emph{Biocides at home: emissions, potential exposure and reduction solutions} », portée par A. \textsc{Bressy}. 352 k€.\\
+
+2021-2025 & Participation à l’ANR PRC (AAPG 2021) \emph{EGOUT} : « \emph{Extended Geochemical Observation of Urban Trajectories} », portée par J. \textsc{Jacob} (LSCE). 685 k€.\\
+
+2023-2024 & Appel à projet "Amorçage" de la ComUE Paris Est Sup : \emph{Electr'Eau} : « \emph{Traitement tertiaire des eaux usées municipales par électro-oxydation : élimination des micropolluants et estimation du risque en cas de réutilisation} », porté par C. Trellu (LGE - Université Gustave Eiffel). 35 k€.\\
+}
+```
+## 2.2 Encadrements
+
+### Post-doctorants
+
+```{=tex}
+\twocolsection{}{
+  2018-2019 & Maolida \textsc{Nihemaiti}, \textbf{post-doctorante de l'Université Paris-Est Créteil}, appel à projet UPEC et programme PRESTIGE (Campus France/Union
+Européenne)\\
+  & \small\emph{Caractérisation de micropolluants organiques dans les procédés d’oxydation (acide performique) des eaux usées}\\
+}
+```
+### Doctorants
+
+```{=tex}
+\twocolsection{}{
+  2016-2019 & Ronan \textsc{Guillossou}, \textbf{doctorant de l'Université Paris-Est}, Ecole des Ponts ParisTech, programme OPUR\\
+  & \small\emph{Elimination des micropolluants organiques dans les eaux résiduaires urbaines par adsorption sur charbon actif : compréhension des processus et implications opérationnelles} | \small Co-direction : J. \textsc{Gasperi}\\
+  &\\
+  %------------------------------------------------
+
+  2018-2022 & Nina \textsc{Huynh}, \textbf{doctorante de l'Université Paris-Est Créteil}, programmes de recherche WaterOmics \& OPUR\\
+  & \small\emph{Caractérisation des eaux résiduaires urbaines par spectrométrie de masse haute résolution : influence de la stratégie analytique, limitations et perspectives} | \small Co-direction : R. \textsc{Moilleron}\\
+  &\\
+  %------------------------------------------------
+
+  2020-2023 & Christelle \textsc{Nabintu Kajoka}, \textbf{doctorante de l'Ecole des Ponts ParisTech}, programme OPUR\\
+  & \small\emph{Utilisation de l’acide performique en traitement des eaux résiduaires urbaines : réactivité avec les micropolluants organiques et stratégies d’intégration au sein de procédés d’oxydation avancée} | \small Co-direction : G. \textsc{Chebbo}, J. \textsc{Gasperi}, S. \textsc{Brosillon}\\
+  &\\
+  %------------------------------------------------
+
+  2021-2024 & Julien \textsc{Sade}, \textbf{doctorant de l'Université Paris-Est Créteil}, programme MeSeine Innovation\\
+  & \small\emph{Caractérisation de la contamination des eaux de surface par le couplage d’analyses non-ciblées en spectrométrie de masse avec des analyses d’écotoxicologie} | \small Co-direction : R. \textsc{Moilleron}, S. \textsc{Mottelet}\\
+}
+```
+### Stagiaires
+
+```{=tex}
+\twocolsection{}{ 2016 & \textbf{Amina \textsc{Azzaoui}}, Licence 3 Chimie Université Paris-Est Créteil \& \textbf{Clarisse \textsc{Gayen}}, licence 3 SVT parcours Chimie-Biologie Université Paris-Est Créteil, 2 mois. \small\emph{Evaluation de l’impact de rejets urbains et de polluants organiques sur la qualité des eaux de surface par une approche métabolomique}\\
+
+& \textbf{Rémi \textsc{Mazerolles}}, Master 2 TVRN, option TQE, Université de Picardie Jules Vernes, ESCOM, 6 mois. \small\emph{Impact des friches industrielles sur la qualité des nappes phréatiques - le cas du site de la Pierre-Fitte à Villeneuve-le-Roi} \| \small Co-encadrement : M. \textsc{Seidl}\\
+
+& \textbf{Thi Kim Phung \textsc{Nguyen}}, Master 2 Systèmes Aquatiques et Gestion de l'Eau, 6 mois. \small\emph{Caractérisation expérimentale de la rétention et du devenir de micropolluants dans le sol d’un ouvrage de gestion des eaux de ruissellement de voirie} \| \small Co-encadrement : M.C. \textsc{Gromaire}\\
+
+2018 & \textbf{Jérémy \textsc{Guyot}}, Master 2 Systèmes Aquatiques et Gestion de l'Eau, 6 mois. \small\emph{Développement de méthodes pour l’analyse de contaminants organiques dans les eaux urbaines par spectrométrie de masse haute résolution}\\
+
+2019 & \textbf{Hans \textsc{Tshimika}}, Licence 3 chimie Université Paris-Est Créteil, 2 mois. \small\emph{Caractérisation des eaux urbaines par spectrométrie de masse : extraction et fractionnement de matière organique et de micropolluants} \| Encadrement avec Nina Huynh\\
+
+2020 & \textbf{Emma \textsc{Seon}}, Master 1 Toxicologie Université de Paris, 2 mois. \small\emph{Caractérisation des micropolluants organiques dans les eaux résiduaires par analyse EDA (effect directed analysis)} \| Encadrement avec Nina Huynh\\
+
+& \textbf{Fatoumata \textsc{Signate}}, BTS Métiers de la Chimie 2ème année ENCPB, 2 mois. \small\emph{Caractérisation de sous-produits d’oxydation et évaluation de leur toxicité dans les eaux usées} \| Encadrement avec Nina Huynh\\
+
+2021 & \textbf{Alicia \textsc{Cotard}}, Master 2 Quatro, Ecole Nationale Supérieure d'Ingénieurs de Limoges, 6 mois. \small\emph{Etude du comportement des micropolluants organiques au sein de bioréacteurs à membranes en traitement des eaux usées urbaines} \| Encadrement avec Romain Mailler et Melissa Lopez Viveros, SIAAP\\
+
+& \textbf{Lamyae \textsc{El Mrabet}}, Master 2 Chimie Université de Limoges, 6 mois. \small\emph{Caractérisation par spectrométrie de masse haute résolution de produits de dégradation lors de l’oxydation de micropolluants organiques} \| Encadrement avec Nina Huynh\\
+
+& \textbf{Maysar \textsc{Bouslah}}, BTS Métiers de la Chimie 2ème année ENCPB, 2 mois. \small\emph{Oxydation de Micropolluants organiques par l’acide performique} \| Encadrement avec Christelle Nabintu Kajoka\\
+
+2022 & \textbf{Lamyae \textsc{El Mrabet}}, Master 2 Systèmes Aquatiques et Gestion de l'Eau, 6 mois. \small\emph{Développements méthodologiques et identification de marqueurs d’un incendie industriel dans les phases aqueuses, les sédiments et les sols (projet ENVAHY)}\\
+
+& \textbf{Chaimae \textsc{Messah}}, Master 1 Pro CAC Université de Bourgogne, 6 mois. \small\emph{Mise au point de méthodes analytiques pour la quantification de micropolluants émergents dans les boues d’épuration} \| Co-encadrement avec Melissa Lopez Viveros, SIAAP\\
+
+& \textbf{Melissia \textsc{Ben Iken}}, Licence 3 Chimie Université Paris-Est Créteil, 4 mois. \small\emph{Oxydation des micropolluants organiques par l'acide performique : cinétique, sous produits et mécanismes d'oxydation} \| Encadrement avec Christelle Nabintu Kajoka\\
+
+& \textbf{Ilyess \textsc{Taïbi}}, BTS Métiers de la Chimie 2ème année ENCPB, 2 mois. \small\emph{Oxydation de Micropolluants organiques par l’acide performique} \| Encadrement avec Christelle Nabintu Kajoka\\
+
+2023 & \textbf{Leila \textsc{Ibrahim}}, Licence 3 Chimie Université Paris-Est Créteil, 4 mois. \small\emph{Oxydation des micropolluants organiques par l'acide performique : cinétique, sous produits et mécanismes d'oxydation} | Encadrement avec Christelle Nabintu Kajoka\\
+
+& \textbf{Antoine \textsc{Le Clair}}, Master 2 Chimie Sorbonne Université, 6 mois. \small\emph{Optimisation de méthodes d'analyse ciblée et non-ciblée pour la détection de micropolluants émergents dans les boues d'épuration} | Co-encadrement avec Melissa Lopez Viveros, SIAAP\\
+
+& \textbf{Khadija \textsc{Diop}}, Master 2 Systèmes Aquatiques et Gestion de l'Eau, 6 mois. \small\emph{Oxydation de micropolluants organiques en traitement avancé des eaux résiduaires par des procédés d’oxydation} | Encadrement avec Christelle Nabintu Kajoka\\
+
+& \textbf{Elhadji Waly \textsc{Ba}}, Master 2 Quatro, Université de Poitiers, 6 mois. \small\emph{Oxydation de micropolluants organiques en traitement avancé des eaux résiduaires par des procédés d’oxydation} | Encadrement avec Christelle Nabintu Kajoka\\
+
+& \textbf{Salomé \textsc{Dushashvili}}, Master 2 Physico-Chimie moléculaire et applications, Université Gustave Eiffel, 6 mois. \small\emph{Estimation par spectrométrie de masse haute résolution de la toxicité de micropolluants organiques et d’échantillons environnementaux} | Encadrement avec Julien Sade\\
+}
+```
+### Stage doctoral
+
+```{=tex}
+\twocolsection{}{ 2023 & \textbf{Amina \textsc{Ben Chaaben}}, Doctorante à l'Université du Québec à Rimouski (UQAR), séjour de recherche de 1 mois dans le cadre de sa formation doctorale "Nouveaux Développements en Océanographie". \small\emph{Analyses non-ciblées par spectrométrie de masse haute résolution d'échantillons d'eau du fleuve Saint-Laurent}\\
+}
+```
+## 2.3 Responsabilités et animations scientifiques
+
+### Animations scientifiques
+
+-   Membre du Comité Scientifique du Leesu depuis 2020, co-animateur d'une des trois thématiques de recherche du laboratoire « Innovations pour la gestion durable de l'eau et de la ville » (organisation de réunions régulières de chercheurs du laboratoire, proposition de séminaires)
+
+-   Gestion du [site internet du laboratoire](https://www.leesu.fr) depuis 2015 (encore épaulé par l'ancien gestionnaire, aujourd'hui retraité) : publication/mise à jour d'articles, gestion du système de contenus, gestion/maintenance du serveur informatique. J'ai notamment entamé une refonte graphique du site, avec sa modernisation (adaptation aux formats d'écrans portables).
+
+-   Co-animation d'un thème de recherche (R2) de la 5^ème^ phase du programme OPUR (2019-2023), et portage de deux actions. J'ai également pris en charge les aspects liés à la communication et au [site web](https://www.leesu.fr/opur), avec également une refonte graphique intégrale.
+
+-   Co-animateur de l'Axe 2 ("Regarder autrement les eaux de surface") du programme [MeSeine Innovation](#0) (2022-2025) porté par le SIAAP.
+
+-   Membre du comité de pilotage de l'[Observatoire de la Ville](https://inneauvation.fr/decouvrir-inneauvation/observatoires-environnementaux/observatoire-ville-1) (SIAAP) depuis sa création en 2021.
+
+-   Participation à un réseau de recherche : membre du réseau européen NORMAN depuis 2019, dédié à l'analyse et au suivi des micropolluants dans l'environnement (réseau qui organise des essais interlaboratoires à l'échelle européenne, et coordonne plusieurs actions/activités scientifiques/groupes de travail). Participation à plusieurs essais interlaboratoires liés à l'analyse non-ciblée par HRMS.
+
+### Organisation de colloques
+
+-   Vice-président de l'Association de Professionnels du Traitement des Eaux et des Nuisances (APTEN Poitiers), organisant tous les deux ans le colloque Journées Information Eaux à Poitiers (500 participants). Membre du comité de sélection scientifique depuis 2018.
+
+-   Membre du comité de pilotage des Journées Scientifiques de l'Environnement, colloque annuel organisé par l'UPEC (OSU Efluve) et le département du Val-de-Marne. Elaboration du programme et animation (2019-2024).
+
+-   Membre du comité scientifique du congrès international du GRUTTEE 2024 (Bordeaux)
+
+### Comités de suivi de thèse, jurys et expertise
+
+#### Comités de suivi
+
+-   **Kevin [Rocco]{.smallcaps}**, « *Stratégies analytiques innovantes pour étudier le devenir des pesticides dans les hydrosystèmes* » -- INRAE/Université de Lyon -- 2019-2022
+
+-   **Karlien [Dejaeger]{.smallcaps}**, « *Risk assessment related to disinfection byproducts formation in drinking water* » -- Université de Ghent et Université de Lille -- 2020-2023
+
+-   **Tom [Ducrocq]{.smallcaps}**, « *Stratégies d'analyses pour l'exploration de la contamination organique des -sédiments de rivières* » -- INRAE/Université de Lyon -- 2021-2024
+
+-   **Mounir [Ayadi]{.smallcaps}**, « *Traitements d'affinage pour le stockage des eaux usées domestiques épurées en vue d'une valorisation en agriculture : Développement d'un traitement d'affinage associant filtration membranaire et couplage UV/chlore pour la réutilisation des eaux usées* » -- Université de Poitiers -- 2022-2025
+
+#### Jurys de thèse (examinateur)
+
+-   **Rayana [Manasfi]{.smallcaps}**, « *Uptake of organic micropollutants by vegetable crops irrigated by reclaimed wastewater: Analytical developments to conduct field studies* » -- laboratoire Hydrosciences de l'Université de Montpellier -- soutenue le 24/11/2020
+
+-   **Martin [Maréchal]{.smallcaps}**, « *Caractérisation de la pollution particulaire dans les piscines couvertes à usage collectif* » -- CSTB / Aix-Marseille Université -- soutenue le 22/03/2023
+
+#### Expertise
+
+-   Membre du comité de sélection de l'appel à projets Water Research Foundation RFP #4499 - Determine the Relative Importance and Contribution of Anthropogenic and Natural Sources of Nitrosamine Precursors (2013)
+
+-   Evaluation d'un projet ANR JCJC en deuxième phase de l'AAPG 2021 dans le volet "CE45 : Mathématiques et sciences du numérique pour la biologie et la santé"
+
+-   Evaluation d'un projet de recherche ANR JCJC de l'AAPG 2022 dans le volet "CE19 : Technologies pour la santé"
+
+-   Membre du jury du prix de thèse 2022 de l'Association Scientifique et Technique pour l'Eau et l'Environnement (ASTEE).
+
+#### Dissémination
+
+Présentation sur les grands problèmes liés à l'eau et démonstration de traitement d'eau en classe de CP (projet de classe d'eau) à l'Ecole Primaire Simone Veil (Bobigny) (22 mai 2023).
+
+```{=tex}
+\FloatBarrier
+\newpage
+\fancyhead[CO,CE]{Publications et communications}
+```
+# 3. Publications et communications
+
+#### Publications dans des revues internationales à comité de lecture
+
+::: {#refs-papersint}
+:::
+
+------------------------------------------------------------------------
+
+#### Publications dans des revues nationales à comité de lecture
+
+::: {#refs-papersnat}
+:::
+
+------------------------------------------------------------------------
+
+#### Communications internationales (présentations orales)
+
+::: {#refs-comintorale}
+:::
+
+------------------------------------------------------------------------
+
+#### Communications internationales (présentations par affiche)
+
+::: {#refs-comintaff}
+:::
+
+------------------------------------------------------------------------
+
+#### Communications nationales (présentations orales)
+
+::: {#refs-comnatorale}
+:::
+
+------------------------------------------------------------------------
+
+#### Communications nationales (présentations par affiche)
+
+::: {#refs-comnataff}
+:::
+
+------------------------------------------------------------------------
+
+#### Ouvrages - Chapitres d'ouvrage
+
+::: {#refs-chap}
+:::
+
+------------------------------------------------------------------------
+
+#### Dépôts de données
+
+::: {#refs-data}
+:::
