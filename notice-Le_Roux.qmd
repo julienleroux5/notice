@@ -68,6 +68,7 @@ bibliography:
 nocite: '@*'
 ---
 
+
 ```{r global_options, include=FALSE}
 knitr::opts_chunk$set(fig.path = 'figures/',
                       echo = FALSE, warning = FALSE, message = FALSE)
@@ -137,6 +138,11 @@ knitr::opts_chunk$set(fig.path = 'figures/',
 
 2022-2025 & Projet Européen HORIZON-WIDERA-2021-ACCESS-02-01 - Twinning Western Balkans Special. \emph{SmartWaterTwin} : « \emph{Twinning for smart water - thinking and rethinking wastewater management in circular economy frame} ». Porté par l'Université de Novi Sad (Serbie), partenaires ICRA (Espagne) et UPEC (France) : porteur pour la France. 247 k€.\\
 
+2024-2027 & Projet ADEME GRAINE. \emph{FreezePee} : « \emph{Procédé de congélation} ». Porteur principal, collaboration avec ENPC, Terre et Cité, INRAE. Budget total XXX k€.\\
+
+2024-2027 & Appel EUR Live, financement de thèse acquis : « \emph{Peut-on prévoir...} ». XXX k€.\\
+
+2024-2027 & Appel thèse région IdF, financement acquis : « \emph{ADNe} ». XXX k€.\\
 }
 ```
 ### Implications dans d'autres projets
@@ -172,6 +178,9 @@ Collaboration internationale UQAR Amina Ben Chaaben
   2018-2019 & Maolida \textsc{Nihemaiti}, \textbf{post-doctorante de l'Université Paris-Est Créteil}, appel à projet UPEC et programme PRESTIGE (Campus France/Union
 Européenne)\\
   & \small\emph{Caractérisation de micropolluants organiques dans les procédés d’oxydation (acide performique) des eaux usées}\\
+  
+  2024-2027 & Corentin \textsc{Eschenbrenner}, \textbf{post-doctorant de l'Université Paris-Est Créteil}, appel à projet ADEME GRAINE\\
+  & \small\emph{Freezepee}\\
 }
 ```
 ### Doctorants
@@ -190,11 +199,17 @@ Européenne)\\
 
   2020-2023 & Christelle \textsc{Nabintu Kajoka}, \textbf{doctorante de l'Ecole des Ponts ParisTech}, programme OPUR\\
   & \small\emph{Utilisation de l’acide performique en traitement des eaux résiduaires urbaines : réactivité avec les micropolluants organiques et stratégies d’intégration au sein de procédés d’oxydation avancée} | \small Co-direction : G. \textsc{Chebbo}, J. \textsc{Gasperi}, S. \textsc{Brosillon}\\
+  & Lauréate 2024 d'un prix de thèse de la ComUE Paris-Est Sup (prix spécial "Territoire")\\
   &\\
   %------------------------------------------------
 
   2021-2024 & Julien \textsc{Sade}, \textbf{doctorant de l'Université Paris-Est Créteil}, programme MeSeine Innovation\\
   & \small\emph{Caractérisation de la contamination des eaux de surface par le couplage d’analyses non-ciblées en spectrométrie de masse avec des analyses d’écotoxicologie} | \small Co-direction : R. \textsc{Moilleron}, S. \textsc{Mottelet}\\
+  &\\
+  %------------------------------------------------
+  
+  2024-2027 & Ravo \textsc{Ravaozafindrasoa}, \textbf{doctorant de l'Université Paris-Est Créteil}, EUR Live\\
+  & \small\emph{Peut-on prévoir la vulnérabilité sanitaire des ressources en eau en couplant la pression chimique à l'ADN environnemental ?} | \small Co-direction : A. \textsc{Bressy}, M.D.  \textsc{Jusselme}\\
 }
 ```
 ### Stagiaires
@@ -237,9 +252,9 @@ Européenne)\\
 & \textbf{Elhadji Waly \textsc{Ba}}, Master 2 Quatro, Université de Poitiers, 6 mois. \small\emph{Oxydation de micropolluants organiques en traitement avancé des eaux résiduaires par des procédés d’oxydation} | Encadrement avec Christelle Nabintu Kajoka\\
 
 & \textbf{Salomé \textsc{Dushashvili}}, Master 2 Physico-Chimie moléculaire et applications, Université Gustave Eiffel, 6 mois. \small\emph{Estimation par spectrométrie de masse haute résolution de la toxicité de micropolluants organiques et d’échantillons environnementaux} | Encadrement avec Julien Sade\\
-}
 
 2024 & \textbf{Jeshica \textsc{Thiraimaran}}, Licence 3 Chimie Université Paris-Est Créteil, 2 mois. \small\emph{Faisabilité de l’évaluation de la part de réutilisation indirecte des eaux usées dans la production d’eau potable en France}\\
+}
 
 ```
 ### Stage doctoral
@@ -270,7 +285,7 @@ Européenne)\\
 
 -   Membre du comité de pilotage des Journées Scientifiques de l'Environnement, colloque annuel organisé par l'UPEC (OSU Efluve) et le département du Val-de-Marne. Elaboration du programme et animation (2019-2024).
 
--   Membre du comité scientifique du congrès international du GRUTTEE 2024 (Bordeaux)
+-   Membre du comité scientifique du congrès international du GRUTTEE 2024 (Bordeaux).
 
 ### Comités de suivi de thèse, jurys et expertise
 
@@ -288,6 +303,8 @@ Européenne)\\
 -   **Tom [Ducrocq]{.smallcaps}**, « *Stratégies d'analyses pour l'exploration de la contamination organique des -sédiments de rivières* » -- INRAE/Université de Lyon -- 2021-2024
 
 -   **Mounir [Ayadi]{.smallcaps}**, « *Traitements d'affinage pour le stockage des eaux usées domestiques épurées en vue d'une valorisation en agriculture : Développement d'un traitement d'affinage associant filtration membranaire et couplage UV/chlore pour la réutilisation des eaux usées* » -- Université de Poitiers -- 2022-2025
+
+-   **Armand [Poirier]{.smallcaps}**, « *Usage de la spectroscopie de fluorescence in situ et à haute fréquence pour le suivi de la matière organique dans la file eau et la file boue des STEU : mise en oeuvre d'un outils d'aide à la gestion des procédés* » -- Université Paris-Est Créteil -- 2023-2026
 
 #### Jurys de thèse (examinateur)
 
