@@ -68,7 +68,6 @@ bibliography:
 nocite: '@*'
 ---
 
-
 ```{r global_options, include=FALSE}
 knitr::opts_chunk$set(fig.path = 'figures/',
                       echo = FALSE, warning = FALSE, message = FALSE)
@@ -76,47 +75,39 @@ knitr::opts_chunk$set(fig.path = 'figures/',
 
 \pagenumbering{gobble}
 
-```{=tex}
 \newpage
 \pagestyle{fancy}
 \fancyhead[LE,RO]{}
 \fancyhead[LO,RE]{}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0pt}
-```
+
 \pagenumbering{roman}
 
-```{=tex}
 \newpage
 \fancyhead[CO,CE]{Table des matières}
 \setcounter{tocdepth}{2}
 \tableofcontents
-```
-```{=tex}
 \newpage
 \pagenumbering{arabic}
-```
-```{=tex}
 \newpage
 \fancyhead[CO,CE]{Curriculum Vitae}
-```
+
 # 1. Curriculum Vitae
 
 ```{r child = 'curriculum.qmd'}
 ```
 
-```{=tex}
 \FloatBarrier
 \newpage
 \fancyhead[CO,CE]{Activités de recherche}
-```
+
 # 2. Activités de recherche
 
 ## 2.1 Projets de recherche
 
 ### Porteur de projets
 
-```{=tex}
 \twocolsection{}{
 2017 & Appel à projet de la Faculté de Sciences et Technologie de l'UPEC - soutien à la recherche des Maîtres de Conférences nouvellement nommés. 6100€.\\
 
@@ -138,16 +129,13 @@ knitr::opts_chunk$set(fig.path = 'figures/',
 
 2022-2025 & Projet Européen HORIZON-WIDERA-2021-ACCESS-02-01 - Twinning Western Balkans Special. \emph{SmartWaterTwin} : « \emph{Twinning for smart water - thinking and rethinking wastewater management in circular economy frame} ». Porté par l'Université de Novi Sad (Serbie), partenaires ICRA (Espagne) et UPEC (France) : porteur pour la France. 247 k€.\\
 
-2024-2027 & Projet ADEME GRAINE. \emph{FreezePee} : « \emph{Procédé de congélation} ». Porteur principal, collaboration avec ENPC, Terre et Cité, INRAE. Budget total XXX k€.\\
+2024-2027 & Projet ADEME APR GRAINE 2024 - Production, valorisation des biomasses et préservation des écosystèmes : la bioéconomie face aux enjeux climatiques et environnementaux. \emph{FreezePee} : « \emph{Evaluation d'un procédé novateur de cryoconcentration : élaboration, analyse et démonstration d'un nouvel urino-fertilisant} ». Porteur du projet (UPEC), partenaires : Ecole Nationale des Ponts et Chaussées, INRAE, Terre et Cité, Chambre d'Agriculture de région Ile-de-France. 300 k€.\\
 
-2024-2027 & Appel EUR Live, financement de thèse acquis : « \emph{Peut-on prévoir...} ». XXX k€.\\
-
-2024-2027 & Appel thèse région IdF, financement acquis : « \emph{ADNe} ». XXX k€.\\
+2024-2027 & Projet \emph{ChemBiodiv} : « \emph{Relier la pression chimique à ses effets sur la biodiversité dans les eaux urbaines} ». Financements EUR Live (financement de thèse de Ravo Ravaorafindrasoa), Région Ile-de-France (financement de thèse de Malek Baroudi) et SIAAP (programme MeSeine Innovation, Action 2.2.3).\\
 }
-```
+
 ### Implications dans d'autres projets
 
-```{=tex}
 \twocolsection{}{
 2017 & Appel à projet collaboratif de l’OSU Efluve (UPEC) : \emph{Screenatm’eau} : « \emph{Développement d’une méthode non ciblée pour l’analyse de micropolluants par couplage chromatographie liquide et spectrométrie de masse haute résolution à l’interface eau/atmosphère} ». Porté par A. \textsc{Bressy}. 18 k€.\\
 
@@ -160,32 +148,27 @@ knitr::opts_chunk$set(fig.path = 'figures/',
 2021-2025 & Participation à l’ANR PRC (AAPG 2021) \emph{EGOUT} : « \emph{Extended Geochemical Observation of Urban Trajectories} », portée par J. \textsc{Jacob} (LSCE). 685 k€.\\
 
 2023-2024 & Appel à projet "Amorçage" de la ComUE Paris Est Sup : \emph{Electr'Eau} : « \emph{Traitement tertiaire des eaux usées municipales par électro-oxydation : élimination des micropolluants et estimation du risque en cas de réutilisation} », porté par C. Trellu (LGE - Université Gustave Eiffel). 35 k€.\\
+
+2023-2024 & Participation au projet C-BASC 2022 (Université Paris-Saclay) : \emph{MedUrinAgri} : « \emph{Evaluation ciblée et non-ciblée de résidus de médicaments dans des urines traitées ou stockées et dans les sols les recevant} », porté par M. Deschamps (UMR ECOSYS) et C. Aubry (UMR SADAPT). 30 k€.\\
+
+% Collaboration internationale UQAR Amina Ben Chaaben
 }
 
-MedUrinAgri
-
-Collaboration internationale UQAR Amina Ben Chaaben
-
-
-
-```
 ## 2.2 Encadrements
 
 ### Post-doctorants
 
-```{=tex}
 \twocolsection{}{
   2018-2019 & Maolida \textsc{Nihemaiti}, \textbf{post-doctorante de l'Université Paris-Est Créteil}, appel à projet UPEC et programme PRESTIGE (Campus France/Union
 Européenne)\\
   & \small\emph{Caractérisation de micropolluants organiques dans les procédés d’oxydation (acide performique) des eaux usées}\\
   
-  2024-2027 & Corentin \textsc{Eschenbrenner}, \textbf{post-doctorant de l'Université Paris-Est Créteil}, appel à projet ADEME GRAINE\\
-  & \small\emph{Freezepee}\\
+2024-2027 & Corentin \textsc{Eschenbrenner}, \textbf{post-doctorant de l'Université Paris-Est Créteil}, appel à projet de recherche GRAINE de l'ADEME\\
+  & \small\emph{Evaluation d'un procédé novateur de cryoconcentration : élaboration, analyse et démonstration d'un nouvel urino-fertilisant}\\
 }
-```
+
 ### Doctorants
 
-```{=tex}
 \twocolsection{}{
   2016-2019 & Ronan \textsc{Guillossou}, \textbf{doctorant de l'Université Paris-Est}, Ecole des Ponts ParisTech, programme OPUR\\
   & \small\emph{Elimination des micropolluants organiques dans les eaux résiduaires urbaines par adsorption sur charbon actif : compréhension des processus et implications opérationnelles} | \small Co-direction : J. \textsc{Gasperi}\\
@@ -210,18 +193,27 @@ Européenne)\\
   
   2024-2027 & Ravo \textsc{Ravaozafindrasoa}, \textbf{doctorant de l'Université Paris-Est Créteil}, EUR Live\\
   & \small\emph{Peut-on prévoir la vulnérabilité sanitaire des ressources en eau en couplant la pression chimique à l'ADN environnemental ?} | \small Co-direction : A. \textsc{Bressy}, M.D.  \textsc{Jusselme}\\
+  &\\
+  %------------------------------------------------
+  
+  2024-2027 & Malek \textsc{Baroudi}, \textbf{doctorante de l'Ecole Nationale des Ponts et Chaussées}, Financement Région Ile-de-France\\ 
+  & \small\emph{Peut-on prévoir la vulnérabilité sanitaire des ressources en eau en couplant la pression chimique à l'ADN environnemental ?} | \small Co-direction : A. \textsc{Bressy}, M.D. \textsc{Jusselme}\\
 }
-```
+
 ### Stagiaires
 
-```{=tex}
-\twocolsection{}{ 2016 & \textbf{Amina \textsc{Azzaoui}}, Licence 3 Chimie Université Paris-Est Créteil \& \textbf{Clarisse \textsc{Gayen}}, licence 3 SVT parcours Chimie-Biologie Université Paris-Est Créteil, 2 mois. \small\emph{Evaluation de l’impact de rejets urbains et de polluants organiques sur la qualité des eaux de surface par une approche métabolomique}\\
+\twocolsection{}{ 
+2015 & \textbf{Shintuya \textsc{Sivayanama}}, Licence 3 Chimie-Biologie Université Paris-Est Créteil, 2 mois. \small\emph{Etude de la conservation des échantillons environnementaux - Suivi des paramètres globaux de qualité des eaux}\\
+
+2016 & \textbf{Amina \textsc{Azzaoui}}, Licence 3 Chimie Université Paris-Est Créteil \& \textbf{Clarisse \textsc{Gayen}}, licence 3 SVT parcours Chimie-Biologie Université Paris-Est Créteil, 2 mois. \small\emph{Evaluation de l’impact de rejets urbains et de polluants organiques sur la qualité des eaux de surface par une approche métabolomique}\\
 
 & \textbf{Rémi \textsc{Mazerolles}}, Master 2 TVRN, option TQE, Université de Picardie Jules Vernes, ESCOM, 6 mois. \small\emph{Impact des friches industrielles sur la qualité des nappes phréatiques - le cas du site de la Pierre-Fitte à Villeneuve-le-Roi} \| \small Co-encadrement : M. \textsc{Seidl}\\
 
 & \textbf{Thi Kim Phung \textsc{Nguyen}}, Master 2 Systèmes Aquatiques et Gestion de l'Eau, 6 mois. \small\emph{Caractérisation expérimentale de la rétention et du devenir de micropolluants dans le sol d’un ouvrage de gestion des eaux de ruissellement de voirie} \| \small Co-encadrement : M.C. \textsc{Gromaire}\\
 
-2018 & \textbf{Jérémy \textsc{Guyot}}, Master 2 Systèmes Aquatiques et Gestion de l'Eau, 6 mois. \small\emph{Développement de méthodes pour l’analyse de contaminants organiques dans les eaux urbaines par spectrométrie de masse haute résolution}\\
+2018 & \textbf{Hadley \textsc{Habeck}}, Master 1 Université Paris-Est Créteil/Northern Arizona University, 4 mois. \small\emph{Développement de méthodes pour l’analyse de contaminants dans les eaux urbaines : substituts aux parabènes par LC/MSMS, sous-produits d’oxydation par GC/MSMS}\\
+
+& \textbf{Jérémy \textsc{Guyot}}, Master 2 Systèmes Aquatiques et Gestion de l'Eau, 6 mois. \small\emph{Développement de méthodes pour l’analyse de contaminants organiques dans les eaux urbaines par spectrométrie de masse haute résolution}\\
 
 2019 & \textbf{Hans \textsc{Tshimika}}, Licence 3 chimie Université Paris-Est Créteil, 2 mois. \small\emph{Caractérisation des eaux urbaines par spectrométrie de masse : extraction et fractionnement de matière organique et de micropolluants} \| Encadrement avec Nina Huynh\\
 
@@ -256,13 +248,11 @@ Européenne)\\
 2024 & \textbf{Jeshica \textsc{Thiraimaran}}, Licence 3 Chimie Université Paris-Est Créteil, 2 mois. \small\emph{Faisabilité de l’évaluation de la part de réutilisation indirecte des eaux usées dans la production d’eau potable en France}\\
 }
 
-```
 ### Stage doctoral
 
-```{=tex}
 \twocolsection{}{ 2023 & \textbf{Amina \textsc{Ben Chaaben}}, Doctorante à l'Université du Québec à Rimouski (UQAR), séjour de recherche de 1 mois dans le cadre de sa formation doctorale "Nouveaux Développements en Océanographie". \small\emph{Analyses non-ciblées par spectrométrie de masse haute résolution d'échantillons d'eau du fleuve Saint-Laurent}\\
 }
-```
+
 ## 2.3 Responsabilités et animations scientifiques
 
 ### Animations scientifiques
@@ -289,11 +279,6 @@ Européenne)\\
 
 ### Comités de suivi de thèse, jurys et expertise
 
-```{=tex}
-\begin{color}{red}
-(y compris jurys MCF ?) + RIPEC quelquepart ?
-\end{color}
-```
 #### Comités de suivi
 
 -   **Kevin [Rocco]{.smallcaps}**, « *Stratégies analytiques innovantes pour étudier le devenir des pesticides dans les hydrosystèmes* » -- INRAE/Université de Lyon -- 2019-2022
@@ -312,7 +297,7 @@ Européenne)\\
 
 -   **Martin [Maréchal]{.smallcaps}**, « *Caractérisation de la pollution particulaire dans les piscines couvertes à usage collectif* » -- CSTB / Aix-Marseille Université -- soutenue le 22/03/2023
 
-#### Expertise
+#### Comités de sélection - évaluation - expertise
 
 -   Membre du comité de sélection de l'appel à projets Water Research Foundation RFP #4499 - Determine the Relative Importance and Contribution of Anthropogenic and Natural Sources of Nitrosamine Precursors (2013)
 
@@ -322,15 +307,22 @@ Européenne)\\
 
 -   Membre du jury du prix de thèse 2022 de l'Association Scientifique et Technique pour l'Eau et l'Environnement (ASTEE).
 
+-   Membre de comités de sélection de recrutement d'enseignants-chercheurs (MCF section 35 FST UPEC 2020, MCF section 35 IUT UPEC 2020, MCF section 62 Université Gustave Eiffel 2020, MCF section 32 Université de Limoges 2021)
+
+-   Evaluation de plusieurs dossiers RIPEC 2022 et 2023
+
 #### Dissémination
 
 Présentation sur les grands problèmes liés à l'eau et démonstration de traitement d'eau en classe de CP (projet de classe d'eau) à l'Ecole Primaire Simone Veil (Bobigny) (22 mai 2023), et une classe de CM1 à l'Ecole Primaire Sciences et Biodiversité (Boulogne-Billancourt) (30 mai 2024).
 
-```{=tex}
+### Activité de relecture
+
+Plus d'une centaine de relecture d'articles dans des journaux à fort impact facteur (ex. 24 Water Research, 17 Environmental Science and Pollution Research, 15 Environmental Science & Technology). <https://www.webofscience.com/wos/author/record/I-6982-2019>
+
 \FloatBarrier
 \newpage
 \fancyhead[CO,CE]{Publications et communications}
-```
+
 # 3. Publications et communications
 
 #### Publications dans des revues internationales à comité de lecture

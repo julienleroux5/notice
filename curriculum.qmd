@@ -82,5 +82,8 @@ Thématiques de recherche :
 Depuis 2017 & Co-responsable du master en apprentissage \textsc{Analyse et Assurance Qualité} de la Faculté des Sciences et Technologie de l'\textbf{Université Paris-Est Créteil}. Organisation du passage de la formation sur 2 années à partir de 2020.\\
 &\\
 
+2022 & Titulaire de la prime individuelle RIPEC.
+&\\
+
 \end{longtblr}
 ```
