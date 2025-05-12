@@ -125,13 +125,13 @@ knitr::opts_chunk$set(fig.path = 'figures/',
 
 2021-2023 & Partenaire de l'ANR RA-SIOMRI 2021 (Recherche-Action - Solutions innovantes et opérationnelles dans la maitrise des risques industriels en milieu urbain et dense) \emph{ENVAHY} : « \emph{Imprégnation de l'ENVironnement suite à un Accident industriel en milieu urbain dense : recherche de marqueurs et de leur transfert dans l'Hydrosystème} », portée par M. \textsc{Fournier} (Université de Rouen Normandie). Financement d'un stage de M2 + fonctionnement. 18,3 k€.\\
 
-2021-2024 & Programme MeSeine Innovation (Observer et comprendre la Seine francilienne), Phase 1 : Action 2.2.2 : « \emph{Caractérisation de la contamination des eaux de surface par le couplage d’analyses non-ciblées en spectrométrie de masse avec des analyses d’écotoxicologie} ». Co-direction de thèse (Julien \textsc{Sade}).\\
+2021-2024 & Programme MeSeine Innovation (Observer et comprendre la Seine francilienne), Phase 1 : Action 2.2.2 : « \emph{Caractérisation de la contamination des eaux de surface par le couplage d’analyses non-ciblées en spectrométrie de masse avec des analyses d’écotoxicologie} ». Porteur de l'action. Co-direction de thèse (Julien \textsc{Sade}).\\
 
 2022-2025 & Projet Européen HORIZON-WIDERA-2021-ACCESS-02-01 - Twinning Western Balkans Special. \emph{SmartWaterTwin} : « \emph{Twinning for smart water - thinking and rethinking wastewater management in circular economy frame} ». Porté par l'Université de Novi Sad (Serbie), partenaires ICRA (Espagne) et UPEC (France) : porteur pour la France. 247 k€.\\
 
 2024-2027 & Projet ADEME APR GRAINE 2024 - Production, valorisation des biomasses et préservation des écosystèmes : la bioéconomie face aux enjeux climatiques et environnementaux. \emph{FreezePee} : « \emph{Evaluation d'un procédé novateur de cryoconcentration : élaboration, analyse et démonstration d'un nouvel urino-fertilisant} ». Porteur du projet (UPEC), partenaires : Ecole Nationale des Ponts et Chaussées, INRAE, Terre et Cité, Chambre d'Agriculture de région Ile-de-France. 300 k€.\\
 
-2024-2027 & Projet \emph{ChemBiodiv} : « \emph{Relier la pression chimique à ses effets sur la biodiversité dans les eaux urbaines} ». Financements EUR Live (financement de thèse de Ravo Ravaorafindrasoa), Région Ile-de-France (financement de thèse de Malek Baroudi) et SIAAP (programme MeSeine Innovation, Action 2.2.3).\\
+2024-2027 & Projet \emph{ChemBiodiv} : « \emph{Relier la pression chimique à ses effets sur la biodiversité dans les eaux urbaines} ». Financements EUR Live (financement de thèse de Ravo Ravaorafindrasoa), Région Ile-de-France (financement de thèse de Malek Baroudi) et SIAAP (programme MeSeine Innovation, Action 2.2.3). Porté avec Adèle Bressy et My Dung Jusselme. 270 k€.\\
 }
 
 ### Implications dans d'autres projets
@@ -151,7 +151,8 @@ knitr::opts_chunk$set(fig.path = 'figures/',
 
 2023-2024 & Participation au projet C-BASC 2022 (Université Paris-Saclay) : \emph{MedUrinAgri} : « \emph{Evaluation ciblée et non-ciblée de résidus de médicaments dans des urines traitées ou stockées et dans les sols les recevant} », porté par M. Deschamps (UMR ECOSYS) et C. Aubry (UMR SADAPT). 30 k€.\\
 
-% Collaboration internationale UQAR Amina Ben Chaaben
+2024-2027 & Participation au projet CASDAR FranceAgriMer : \emph{Pluvaluh} : « \emph{Promouvoir L'Usage et la Valorisation en Agriculture de L'Urine Humaine} », porté par la Chambre d’Agriculture de Région Ile-de-France. 588 k€.\\
+
 }
 
 ## 2.2 Encadrements
@@ -191,13 +192,18 @@ Européenne)\\
   &\\
   %------------------------------------------------
   
-  2024-2027 & Ravo \textsc{Ravaozafindrasoa}, \textbf{doctorant de l'Université Paris-Est Créteil}, EUR Live\\
-  & \small\emph{Peut-on prévoir la vulnérabilité sanitaire des ressources en eau en couplant la pression chimique à l'ADN environnemental ?} | \small Co-direction : A. \textsc{Bressy}, M.D.  \textsc{Jusselme}\\
+  2024-2027 & Ravo \textsc{Ravaozafindrasoa}, \textbf{doctorant de l'Université Paris-Est Créteil}, Ecole de Recherche Universitaire EUR Live (Life Trajectories & Health Vulnerability)\\
+  & \small\emph{Peut-on prévoir la vulnérabilité sanitaire des ressources en eau en couplant la pression chimique à l'ADN environnemental ?} | \small Encadrant principal - co-direction : A. \textsc{Bressy}, M.D.  \textsc{Jusselme}\\
   &\\
   %------------------------------------------------
   
   2024-2027 & Malek \textsc{Baroudi}, \textbf{doctorante de l'Ecole Nationale des Ponts et Chaussées}, Financement Région Ile-de-France\\ 
-  & \small\emph{Peut-on prévoir la vulnérabilité sanitaire des ressources en eau en couplant la pression chimique à l'ADN environnemental ?} | \small Co-direction : A. \textsc{Bressy}, M.D. \textsc{Jusselme}\\
+  & \small\emph{Antibiorésistance et micropolluants dans les écoystèmes aquatiques : intégration des données issues de la métagénomique et de l’analyse HRMS non-ciblée, de la station d’épuration au milieu récepteur} | \small Encadrement à 30~\% - co-direction : A. \textsc{Bressy}, M.D. \textsc{Jusselme}\\
+  
+    %------------------------------------------------
+  
+  2024-2027 & Birsu \textsc{Guzel}, \textbf{doctorante de l'Ecole Nationale des Ponts et Chaussées}, programme de recherche Mocopée\\ 
+  & \small\emph{Evaluation de l’efficacité du traitement tertiaire des rejets en station d’épuration sur les virus et les pathogènes} | \small Encadrement à 15~\% - co-direction : A. \textsc{Bressy}, M.D. \textsc{Jusselme}\\
 }
 
 ### Stagiaires
@@ -215,7 +221,7 @@ Européenne)\\
 
 & \textbf{Jérémy \textsc{Guyot}}, Master 2 Systèmes Aquatiques et Gestion de l'Eau, 6 mois. \small\emph{Développement de méthodes pour l’analyse de contaminants organiques dans les eaux urbaines par spectrométrie de masse haute résolution}\\
 
-2019 & \textbf{Hans \textsc{Tshimika}}, Licence 3 chimie Université Paris-Est Créteil, 2 mois. \small\emph{Caractérisation des eaux urbaines par spectrométrie de masse : extraction et fractionnement de matière organique et de micropolluants} \| Encadrement avec Nina Huynh\\
+2019 & \textbf{Hans \textsc{Tshimika}}, Licence 3 Chimie Université Paris-Est Créteil, 2 mois. \small\emph{Caractérisation des eaux urbaines par spectrométrie de masse : extraction et fractionnement de matière organique et de micropolluants} \| Encadrement avec Nina Huynh\\
 
 2020 & \textbf{Emma \textsc{Seon}}, Master 1 Toxicologie Université de Paris, 2 mois. \small\emph{Caractérisation des micropolluants organiques dans les eaux résiduaires par analyse EDA (effect directed analysis)} \| Encadrement avec Nina Huynh\\
 
@@ -246,6 +252,8 @@ Européenne)\\
 & \textbf{Salomé \textsc{Dushashvili}}, Master 2 Physico-Chimie moléculaire et applications, Université Gustave Eiffel, 6 mois. \small\emph{Estimation par spectrométrie de masse haute résolution de la toxicité de micropolluants organiques et d’échantillons environnementaux} | Encadrement avec Julien Sade\\
 
 2024 & \textbf{Jeshica \textsc{Thiraimaran}}, Licence 3 Chimie Université Paris-Est Créteil, 2 mois. \small\emph{Faisabilité de l’évaluation de la part de réutilisation indirecte des eaux usées dans la production d’eau potable en France}\\
+
+2025 & \textbf{Lilou \textsc{Chret}}, Licence 3 Chimie-Biologie Université Paris-Est Créteil, 2 mois. \small\emph{Analyse de micropolluants organiques dans des matrices complexes} | Encadrement avec Emilie Caupos\\
 }
 
 ### Stage doctoral
@@ -268,6 +276,8 @@ Européenne)\\
 -   Membre du comité de pilotage de l'[Observatoire de la Ville](https://inneauvation.fr/decouvrir-inneauvation/observatoires-environnementaux/observatoire-ville-1) (SIAAP) depuis sa création en 2021.
 
 -   Participation à un réseau de recherche : membre du réseau européen NORMAN depuis 2019, dédié à l'analyse et au suivi des micropolluants dans l'environnement (réseau qui organise des essais interlaboratoires à l'échelle européenne, et coordonne plusieurs actions/activités scientifiques/groupes de travail). Participation à plusieurs essais interlaboratoires liés à l'analyse non-ciblée par HRMS.
+
+-   Membre du comité scientifique d'[Hésiode Environnement](https://www.hesiode-environnement.fr/) depuis 2025.
 
 ### Organisation de colloques
 
@@ -317,7 +327,7 @@ Présentation sur les grands problèmes liés à l'eau et démonstration de trai
 
 ### Activité de relecture
 
-Plus d'une centaine de relecture d'articles dans des journaux à fort impact facteur (ex. 24 Water Research, 17 Environmental Science and Pollution Research, 15 Environmental Science & Technology). <https://www.webofscience.com/wos/author/record/I-6982-2019>
+Plus d'une centaine de relecture d'articles dans des journaux à fort facteur d'impact (ex. 24 Water Research, 17 Environmental Science and Pollution Research, 15 Environmental Science & Technology). <https://www.webofscience.com/wos/author/record/I-6982-2019>
 
 \FloatBarrier
 \newpage
