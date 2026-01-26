@@ -17,7 +17,7 @@ Ingénieur en Traitement des Eaux et des Nuisances\\
 
 Docteur en Sciences de l'Eau \\
 
-Maître de conférences (5\textsuperscript{e} échelon), 35\textsuperscript{ème} section CNU
+Maître de conférences (5\textsuperscript{e} échelon), 35\textsuperscript{e} section CNU
 
 \vspace{1 cm}
 
@@ -61,22 +61,22 @@ julien.le-roux@u-pec.fr
 &\\
 
 
-2012-2014 & Chercheur Post-Doctoral au \textsc{Water Desalination and Reuse Center (WDRC)}, \textbf{Université KAUST}, Arabie Saoudite\\
+2012-2014 & Chercheur Post-Doctoral au \textsc{Water Desalination and Reuse Center} (WDRC), \textbf{Université KAUST}, Arabie Saoudite\\
 & \small{Thématiques de recherche : 
-\newline → identification de sous-produits de désinfection dans des usines de dessalement (mer rouge)
-\newline → Projet avec l’Université d’Illinois à Urbana-Champaign : « Nitrogenous DBPs in Reclaimed Wastewater Effluents: Chemistry, Toxicity and Control Strategies ».
-\newline →   Identification de produits d'oxydation avancée par LC-ORBITRAP et LC-MS\textsuperscript{n}
-\newline →   Identification de sous-produits de désinfection formés à partir d’effluents d’eaux usées
-\newline →   Utilisation avancée de techniques analytiques : GC-ICP-MS, LC-QTOF, LC-ORBITRAP}\\
+\newline $\rightarrow$ Identification de sous-produits de désinfection dans des usines de dessalement (Mer Rouge)
+\newline $\rightarrow$ Projet avec l’Université d’Illinois à Urbana-Champaign : « Nitrogenous DBPs in Reclaimed Wastewater Effluents: Chemistry, Toxicity and Control Strategies ».
+\newline $\rightarrow$ Identification de produits d'oxydation avancée par LC-ORBITRAP et LC-MS\textsuperscript{n}
+\newline $\rightarrow$ Identification de sous-produits de désinfection formés à partir d’effluents d’eaux usées
+\newline $\rightarrow$ Utilisation avancée de techniques analytiques : GC-ICP-MS, LC-QTOF, LC-ORBITRAP}\\
 &\\
 
 
 Depuis 2015 & Maitre de conférences au \textsc{Laboratoire Eau Environnement et Systèmes Urbains (LEESU)}, \textbf{Université Paris-Est Créteil}\\
 & \small{Enseignements en chimie à l’UPEC (Faculté des Sciences et Technologie), niveaux L1 à M2\\
 Thématiques de recherche : 
-\newline → Mécanismes de transfert et de transformation de polluants organiques dans les eaux urbaines : caractérisation, compréhension, quantification
-\newline → Traitement avancé de micropolluants organiques dans les effluents d’eaux usées
-\newline → Développement analytique en spectrométrie de masse haute résolution}\\
+\newline $\rightarrow$ Mécanismes de transfert et de transformation de polluants organiques dans les eaux urbaines : caractérisation, compréhension, quantification
+\newline $\rightarrow$ Traitement avancé de micropolluants organiques dans les effluents d’eaux usées
+\newline $\rightarrow$ Développement analytique en spectrométrie de masse haute résolution}\\
 &\\
 
 Depuis 2017 & Co-responsable du master en apprentissage \textsc{Analyse et Assurance Qualité} de la Faculté des Sciences et Technologie de l'\textbf{Université Paris-Est Créteil}. Organisation du passage de la formation sur 2 années à partir de 2020.\\
