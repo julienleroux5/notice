@@ -44,7 +44,7 @@ author:
 - name: Julien Le Roux
 affiliation: Université Paris-Est-Créteil
 keywords: "pandoc, r markdown, knitr"
-date: "`r format(Sys.time(), '%d %m %Y')`"
+date: "02 02 2026"
 geometry: margin=1in
 fontsize: 11pt
 # spacing: double
@@ -70,10 +70,11 @@ bibliography:
 nocite: '@*'
 ---
 
-```{r global_options, include=FALSE}
-knitr::opts_chunk$set(fig.path = 'figures/',
-                      echo = FALSE, warning = FALSE, message = FALSE)
-```
+
+
+
+
+
 
 \pagenumbering{gobble}
 
@@ -97,8 +98,104 @@ knitr::opts_chunk$set(fig.path = 'figures/',
 
 # 1. Curriculum Vitae
 
-```{r child = 'curriculum.qmd'}
+
+
+
+
+
+
+
+
+
+```{=tex}
+\begin{centering}
+
+\vspace{1 cm}
+
+\huge
+Julien Le Roux
+
+\vspace{1 cm}
+
+\Large
+Ingénieur en Traitement des Eaux et des Nuisances\\ 
+
+Docteur en Sciences de l'Eau \\
+
+Maître de conférences (5\textsuperscript{e} échelon), 35\textsuperscript{e} section CNU
+
+\vspace{1 cm}
+
+\large
+Né le 29 novembre 1985 à Nantes\\ 
+\vspace{5mm}
+\textbf{Coordonnées professionnelles}\\
+\normalsize 
+Université Paris-Est Créteil - Maison des Sciences de l'Environnement\\
+5 rue Pasteur Vallery-Radot\\
+94000 Créteil, France\\
+\vspace{5mm}
+01 82 39 20 80\\
+julien.le-roux@u-pec.fr
+
+\end{centering}
+
+\DefTblrTemplate{contfoot-text}{default}{}
+\DefTblrTemplate{conthead-text}{default}{}
+\DefTblrTemplate{caption}{default}{}
+\DefTblrTemplate{conthead}{default}{}
+\DefTblrTemplate{capcont}{default}{}
+
+\begin{longtblr}{r | p{13cm}}
+
+2008 & Diplôme d’Ingénieur de l’\textbf{École Supérieure d’Ingénieurs de Poitiers (ESIP)} – Spécialité Eau et Environnement\\
+& Diplôme de Master 2 Recherche Chimie et Applications, spécialité Chimie et Microbiologie des Eaux | \small\emph{mention bien} - \textbf{Université de Poitiers}\\
+& Sujet de Master : « \emph{Etude du pouvoir colmatant de quelques eaux souterraines} » | \small Direction : Jean-Philippe \textsc{Croué} (ENSI Poitiers) \& Bénédicte \textsc{Welté} (Eau de Paris)\\
+&\\
+
+
+2008-2011 & Doctorat de Chimie spécialité Chimie et Microbiologie de l’Eau – \textbf{École Nationale Supérieure d’Ingénieurs de Poitiers (ENSIP), Université de Poitiers}\\
+& Allocataire de recherche et moniteur\\
+& Thèse : « \emph{Mécanisme de formation des nitrosamines et sous-produits halogénés lors de la chloramination de contaminants organiques azotés émergents} » | \small Direction : Jean-Philippe \textsc{Croué} \& Hervé \textsc{Gallard}\\
+&\\
+&\\
+
+
+2011-2012 & Attaché Temporaire d’Enseignement et de Recherche (ATER) à l’\textbf{ENSI Poitiers}, France\\
+& \small{Enseignements en Chimie des eaux et traitement des eaux}\\
+&\\
+
+
+2012-2014 & Chercheur Post-Doctoral au \textsc{Water Desalination and Reuse Center} (WDRC), \textbf{Université KAUST}, Arabie Saoudite\\
+& \small{Thématiques de recherche : 
+\newline $\rightarrow$ Identification de sous-produits de désinfection dans des usines de dessalement (Mer Rouge)
+\newline $\rightarrow$ Projet avec l’Université d’Illinois à Urbana-Champaign : « Nitrogenous DBPs in Reclaimed Wastewater Effluents: Chemistry, Toxicity and Control Strategies ».
+\newline $\rightarrow$ Identification de produits d'oxydation avancée par LC-ORBITRAP et LC-MS\textsuperscript{n}
+\newline $\rightarrow$ Identification de sous-produits de désinfection formés à partir d’effluents d’eaux usées
+\newline $\rightarrow$ Utilisation avancée de techniques analytiques : GC-ICP-MS, LC-QTOF, LC-ORBITRAP}\\
+&\\
+
+
+Depuis 2015 & Maitre de conférences au \textsc{Laboratoire Eau Environnement et Systèmes Urbains (LEESU)}, \textbf{Université Paris-Est Créteil}\\
+& \small{Enseignements en chimie à l’UPEC (Faculté des Sciences et Technologie), niveaux L1 à M2\\
+Thématiques de recherche : 
+\newline $\rightarrow$ Mécanismes de transfert et de transformation de polluants organiques dans les eaux urbaines : caractérisation, compréhension, quantification
+\newline $\rightarrow$ Traitement avancé de micropolluants organiques dans les effluents d’eaux usées
+\newline $\rightarrow$ Développement analytique en spectrométrie de masse haute résolution}\\
+&\\
+
+Depuis 2017 & Co-responsable du master en apprentissage \textsc{Analyse et Assurance Qualité} de la Faculté des Sciences et Technologie de l'\textbf{Université Paris-Est Créteil}. Organisation du passage de la formation sur 2 années à partir de 2020.\\
+&\\
+
+2022 & Titulaire de la prime individuelle RIPEC.
+&\\
+
+\end{longtblr}
 ```
+
+
+
+
 
 \FloatBarrier
 \newpage
