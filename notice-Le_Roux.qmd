@@ -111,7 +111,7 @@ knitr::opts_chunk$set(fig.path = 'figures/',
 ### Porteur de projets
 
 \twocolsection{}{
-2017 & Appel à projet de la Faculté de Sciences et Technologie de l'UPEC - soutien à la recherche des Maîtres de Conférences nouvellement nommés. « \emph{Caractérisation de micropolluants organiques dans les procédés de traitement des eaux} » 6,1 k€.\\
+2016-2017 & Appel à projet de la Faculté de Sciences et Technologie de l'UPEC - soutien à la recherche des Maîtres de Conférences nouvellement nommés. « \emph{Caractérisation de micropolluants organiques dans les procédés de traitement des eaux} » 6,1 k€.\\
 
 2016-2019 & projet \emph{Carboplus} (OPUR 4 - financement SIAAP, collectivités territoriales, Agence de l'Eau) : « \emph{Abattements des polluants prioritaires et émergents par charbon actif} ». Co-direction de thèse de Ronan \textsc{Guillossou}. 150 k€.\\
 
@@ -136,16 +136,19 @@ knitr::opts_chunk$set(fig.path = 'figures/',
 2024-2027 & Projet \emph{ChemBiodiv} : « \emph{Relier la pression chimique à ses effets sur la biodiversité dans les eaux urbaines} ». Financements EUR Live (financement de thèse de Ravo Ravaorafindrasoa), Région Ile-de-France (financement de thèse de Malek Baroudi) et SIAAP (programme MeSeine Innovation, Action 2.2.3). Porté avec Adèle Bressy et My Dung Jusselme. 270 k€.\\
 
 2025-2027 & Projet ECOS-Sud. \emph{AQUASOL} : « \emph{Franco-Chilean Innovation for Solar Wastewater Treatment with Micropollutants, Microorganisms and ARG Elimination Focus} », Collaboration avec la Pontificia Universidad Católica de Chile (Chili) (Pr. Ricardo Salazar González), financement de séjours de chercheurs confirmés et doctorants.\\
+
+2025-2027 & Projet \emph{HRMSquat} : « \emph{Traitement des micropolluants dans les eaux usées : Etude de l’efficacité de procédés et de
+caractérisation des mécanismes d’élimination par spectrométrie de masse haute résolution} », Collaboration avec SUEZ (E\&C et CIRSEE), financement de 2 ans de post-doctorat (Sylvain Faixo). 120 k€.\\
 }
 
 ### Implications dans d'autres projets
 
 \twocolsection{}{
+2014-2019 & Appel à projet AESN/OFB : \emph{Roulépur} : « \emph{Caractérisation expérimentale de la rétention et du devenir de micropolluants dans le sol d’un ouvrage de gestion des eaux de ruissellement de voirie} » Implication dans l’encadrement d’une stagiaire de M2 (6 mois). Porté par M.C. \textsc{Gromaire}.\\
+
 2016 & PICRI \emph{ReFUJ} : « \emph{Reconversion d'une Friche Urbaine en Jardin} ». Porté par M. \textsc{Bagard}. Co-encadrement d'un stagiaire de M2 avec M. \textsc{Seidl}.\\
 
 2017 & Appel à projet collaboratif de l’OSU-EFLUVE (UPEC) : \emph{Screenatm’eau} : « \emph{Développement d’une méthode non ciblée pour l’analyse de micropolluants par couplage chromatographie liquide et spectrométrie de masse haute résolution à l’interface eau/atmosphère} ». Porté par A. \textsc{Bressy}. 18 k€.\\
-
-2014-2019 & Appel à projet AESN/OFB : \emph{Roulépur} : « \emph{Caractérisation expérimentale de la rétention et du devenir de micropolluants dans le sol d’un ouvrage de gestion des eaux de ruissellement de voirie} » Implication dans l’encadrement d’une stagiaire de M2 (6 mois). Porté par M.C. \textsc{Gromaire}.\\
 
 2019-2022 & OPUR 5 : Thème O2 « \emph{Observatoire des micropolluants dans les eaux urbaines} ». Porté par R. \textsc{Moilleron}.\\
 
@@ -158,6 +161,10 @@ knitr::opts_chunk$set(fig.path = 'figures/',
 2023-2024 & Participation au projet C-BASC 2022 (Université Paris-Saclay) : \emph{MedUrinAgri} : « \emph{Evaluation ciblée et non-ciblée de résidus de médicaments dans des urines traitées ou stockées et dans les sols les recevant} », porté par M. \textsc{Deschamps} (UMR ECOSYS) et C. \textsc{Aubry} (UMR SADAPT). 30 k€.\\
 
 2024-2027 & Participation au projet CASDAR FranceAgriMer : \emph{Pluvaluh} : « \emph{Promouvoir L'Usage et la Valorisation en Agriculture de L'Urine Humaine} », porté par la Chambre d’Agriculture de Région Ile-de-France. 588 k€.\\
+
+2025-2028 & Projet \emph{DERU²SE} : « \emph{Traitement quaternaire des eaux usées, opportunité de réutilisation des eaux traitées} », collaboration SIAAP-SENEO-IEM-LEESU - 54 k€ sur 986 k€.\\
+
+2025-2028 & Participation à l'ANR JCJC (AAPG 2025) \emph{AerEau} : « \emph{Analysis of contaminants in aerosols produced using non-potable water and associated risks of exposure} », portée par A. \textsc{Simons}. 346 k€.\\
 
 }
 
@@ -349,6 +356,8 @@ Européenne)\\
 -   Evaluation de plusieurs dossiers RIPEC 2022 et 2023
 
 -   Evaluation d'un projet de thèse CIFRE 2025
+
+-   Evaluation d'un projet de recherche Région Adour-Garonne 2026
 
 #### Dissémination
 
