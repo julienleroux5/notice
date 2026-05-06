@@ -17,6 +17,8 @@ format:
         \usepackage{tabularx}
         \usepackage{tabularray}
         \usepackage{longtable}
+        \let\circledR\relax
+        \let\circledS\relax
         \usepackage{newcomputermodern}
         \onehalfspacing
         \counterwithin{figure}{section}
@@ -301,13 +303,15 @@ Européenne)\\
 
 -   Membre du comité scientifique d'[Hésiode Environnement](https://www.hesiode-environnement.fr/) depuis 2025.
 
+-   Membre du comité scientifique de l'OSU Efluve depuis 2026. 
+
 ### Organisation de colloques
 
--   Vice-président de l'Association de Professionnels du Traitement des Eaux et des Nuisances (APTEN Poitiers), organisant tous les deux ans le colloque Journées Information Eaux à Poitiers (500 participants). Membre du comité de sélection scientifique depuis 2018.
+-   Membre du bureau de l'Association de Professionnels du Traitement des Eaux et des Nuisances (APTEN Poitiers), organisant tous les deux ans le colloque Journées Information Eaux à Poitiers (500 participants). Membre du comité de sélection scientifique depuis 2018.
 
--   Membre du comité de pilotage des Journées Scientifiques de l'Environnement, colloque annuel organisé par l'UPEC (OSU-EFLUVE) et le département du Val-de-Marne. Elaboration du programme et animation (2019-2024).
+-   Membre du comité de pilotage des Journées Scientifiques de l'Environnement, colloque annuel organisé par l'UPEC (OSU-EFLUVE) et le département du Val-de-Marne. Elaboration du programme et animation (2019-2026).
 
--   Membre du comité scientifique du congrès international du GRUTTEE 2024 (Bordeaux).
+-   Membre du comité scientifique du congrès international du GRUTTEE 2024 (Bordeaux) et 2026 (Marseille).
 
 ### Comités de suivi de thèse, jurys et expertise
 
