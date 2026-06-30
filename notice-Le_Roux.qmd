@@ -186,7 +186,6 @@ Européenne)\\
   & \small\emph{Traitement des micropolluants dans les eaux usées : étude de l'efficacité de procédés et de caractérisation des mécanismes d'élimination par spectrométrie de masse haute résolution}\\
 }
 
-
 ### Doctorants
 
 \twocolsection{}{
@@ -303,7 +302,7 @@ Européenne)\\
 
 -   Membre du comité scientifique d'[Hésiode Environnement](https://www.hesiode-environnement.fr/) depuis 2025.
 
--   Membre du comité scientifique de l'OSU Efluve depuis 2026. 
+-   Membre du comité scientifique de l'OSU Efluve depuis 2026.
 
 ### Organisation de colloques
 
@@ -332,6 +331,10 @@ Européenne)\\
 -   **Pierre [Verdieu]{.smallcaps}**, « *Application du plasma froid pour la décontamination chimique et microbiologique des eaux usées* » -- Université de Limoges -- 2024-2027
 
 -   **Ye [Geng]{.smallcaps}**, « *Understanding the ecodynamic of emerging contaminants into the aquatic environment: focus on transformation products* » -- Université de Bordeaux -- 2024-2028
+
+-   **Johan [Pierre]{.smallcaps}**, « *Apports de la spectrométrie de masse haute résolution pour l’étude de l’écodynamique des pesticides et de leurs produits de transformation : application au compartiment atmosphérique* » -- Université de Bordeaux -- 2025-2028
+
+-   **Martin [Gabard]{.smallcaps}**, « *Contribution des PMT à l'Exposome aquatique : Diagnostic et traitement de la ressource en eau destinée à la consommation humaine* » -- Université de Montpellier -- 2025-2029
 
 #### Jurys de thèse (examinateur)
 
